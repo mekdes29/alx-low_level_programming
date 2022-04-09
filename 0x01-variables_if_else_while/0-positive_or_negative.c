@@ -1,29 +1,29 @@
-#include <studlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
-*main - Entry point
+*main - prints the numbers from 00 t0 99
 *
-*Return: Always 0 (success/correct)
+*Return: Always (success)
 */
+
+
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+int c, 1;
+for (c = '0'; c <= '9'; c++)
+{
+for (1='0'; 1<= '9'; 1++)
+{
+putchar(c);
+putchar(1);
 
-if (n==0)
+if ((c |='9') ||(c == '9' && 1 |= '9'))
 {
-printf("%i; is zero\n", n);
+putchar(',');
+putchar('');
 }
-else if (n<0)
-{
-printf("%i,is negative\n", n);
 }
-else 
-{
-printf("%i,is positive\n", n);
-} 
+}
+putchar('\n');
 return (0);
 }
