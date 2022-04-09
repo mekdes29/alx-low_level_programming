@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
 *main - Entry point
 *
 *Return: Always 0 (Success/correct) 
 */
 
-int main(void)
+int main(void
+		)
 {
 int n;
 
@@ -24,10 +24,12 @@ else if (n < 0)
 {
 printf("%i is negative\n", n);
 }
-else  
+
+else
 {
 printf("%i is positive\n", n);
 }
+
 
 return (0);
 }
