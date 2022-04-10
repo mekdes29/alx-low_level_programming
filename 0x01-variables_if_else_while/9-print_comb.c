@@ -15,14 +15,14 @@ while (number = 10)
 {
 putchar(48 + number);
 
-if (number == 57)
+if (number != 9)
 {
 putchar(',');
 putchar(' ');
 }
 
 number++;
-
+}
 putchar('\n');
 
 return (0);
