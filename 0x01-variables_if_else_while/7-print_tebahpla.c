@@ -19,3 +19,4 @@ for (alphabet = 'z'; alphabet >= 'a'; --alphabet)
 putchar('\n');
 
 return (0);
+}
