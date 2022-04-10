@@ -11,11 +11,12 @@ int main(void)
 {
 int number;
 
+
 for (number = 48;number <= 58; number++)
 {
 putchar(number);
 
-if (number = 57)
+if (number == 58)
 {
 break;
 }
