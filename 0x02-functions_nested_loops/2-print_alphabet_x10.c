@@ -1,15 +1,25 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * add - function that adds two integers and returns the result.
- * @n1: input integer 1
- * @n2: input integer 2
- * Return: int.
+ * print_alphabet_x10 - function that prints 10 times the alphabet,
+ * in lowercase
+ * Return: nothing.
  */
-int add(int n1, int n2)
-{
-	int res;
 
-	res = n1 + n2;
-	return (res);
+void print_alphabet_x10(void)
+{
+	int l;
+	int n = 0;
+
+	while (n < 10)
+	{
+		l = 'a';
+		while (l <= 'z')
+		{
+			_putchar(l);
+			l += 1;
+		}
+		_putchar(10);
+		n += 1;
+	}
 }
