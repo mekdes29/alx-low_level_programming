@@ -1,23 +1,26 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * _isalpha - Return 1 if c is a letter. lowercase or uppercase
- *
- *@c: The int to print
- * Return: Always 0.
+ * main - program that prints the alphabet in lowercase, followed by a new line
+ * You can only use the putchar
+ * Return: 0
  */
 
-int _isalpha(int c)
-
+int main(void)
 {
-
-if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
+int lw = 'a';
+while (lw <= 'z')
 {
-return (1);
+if (lw == 'e' || lw == 'q')
+{
+lw += 1;
 }
-
 else
 {
+putchar(lw);
+lw += 1;
+}
+}
+putchar('\n');
 return (0);
 }
-
