@@ -7,12 +7,16 @@
 int main(void)
 {
 
-int n = 0;
-@@ -10,6 +16,6 @@ int main(void)
-		_putchar(str_hbt[n]);
-		n += 1;
-	}
-	_putchar(10);
-	_putchar('\n');
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
+return (0);
 }
+
