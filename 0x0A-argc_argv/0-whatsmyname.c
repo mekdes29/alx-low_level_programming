@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
  * main-program that prints its name, followedby new line
@@ -12,7 +12,7 @@
  */
 int main(int argc,char **argv)
 {
-	if (argc >=1)
+	if (argc >= 1)
 		printf("%s\n", argv[0]);
 	return(0);
 }
